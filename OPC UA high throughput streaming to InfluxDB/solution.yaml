@@ -125,13 +125,13 @@ Parameters:
     HelpText:
       DE: >-
         Die Verwendung von Batch- und verzögerten/asynchronen Inserts ist wesentlich effizienter und ermöglicht deutlich mehr Übertragungen pro Sekunde. 
-        Fehler während der Übertragung können jedoch nicht zu einzelnen Übertragungen oder Verbindungen zurückverfolgt werden. 
+        Fehler während der Übertragung können jedoch nicht zu einzelnen Übertragungen oder Flows zurückverfolgt werden.
         Im Status werden fehlgeschlagene Übertragungen weiterhin als erfolgreich angezeigt. 
         Fehler, die während einer Übertragung auftreten, sind nur in den Flow Log-Dateien zu sehen. 
         Diese Methode ist nicht mit der Funktion "Store And Forward" kompatibel.
       EN: >-
         Using batch and delayed/asynchronous inserts is much more efficient and allows many more transfers per second. 
-        However, errors during transfers cannot be traced back to individual transfers or connections. 
+        However, errors during transfers cannot be traced back to individual transfers or flows.
         In the status view, failed transfers will still appear as successful. 
         Errors that occur during a transfer can only be seen in the Flow log files.
         This method is not compatible with the "Store And Forward" function.
